@@ -15,6 +15,7 @@ header {
   font-size: 1rem;
   font-weight: bold;
   color: #fff;
+  margin: 0 2.5rem;
 }
 nav {
   margin-right: 0.5rem;
@@ -22,6 +23,7 @@ nav {
 .navbar-items {
   display: flex;
   align-items: center;
+  margin: 0 2.5rem;
 }
 
 .navbar-items ul {
@@ -39,4 +41,31 @@ img {
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
+}
+.main {
+  display: flex;
+  background-color: #edf2f7;
+}
+aside {
+  width: 25%;
+  height: 38rem;
+  margin: 1rem 0.5rem 1rem 3rem;
+}
+
+main {
+  width: 75%;
+  height: 38rem;
+  margin: 1rem 3rem 1rem 0.5rem;
+}
+
+main,
+aside {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+  font-size: 2rem;
 }
