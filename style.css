@@ -47,6 +47,9 @@ nav {
   height: 2rem;
   border-radius: 50%;
 }
+.hamburger-menu {
+  display: none;
+}
 .main {
   display: flex;
   background-color: #edf2f7;

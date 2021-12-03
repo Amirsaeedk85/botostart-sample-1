@@ -1,0 +1,18 @@
+.logo-name{
+    margin: 0;
+}
+.navbar-items {
+  display: none;
+  margin
+}
+.hamburger-menu {
+  display: block;
+}
+.hamburger-menu i {
+  color: white; 
+  font-size: 2rem;
+  margin: 5px 0;
+}
+header{
+    padding:0 1rem;
+} 
